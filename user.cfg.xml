@@ -4038,8 +4038,30 @@ AttributeError: Foo instance has no attribute 'bar'
 	</colorcoding_profiles>
 	<colorcoding_profiles n="colorcoding_profiles.GL" version="1">
 		<styles v="squote squote squote squote squote squote squote dquote dquote dquote dquote dquote dquote dquote doxygen javadoc"/>
+		<p n="k,and"/>
+		<p n="k,def"/>
+		<p n="k,defn"/>
+		<p n="k,ns"/>
+		<p n="lib,append!"/>
+		<p n="lib,by-class"/>
+		<p n="lib,by-id"/>
+		<p n="lib,destroy!"/>
+		<p n="lib,prepend!"/>
+		<p n="lib,value"/>
+		<p n="k,not"/>
+		<p n="user,html"/>
+		<p n="pu,:refer"/>
+		<p n="pu,:require"/>
+		<p n="pu,:require-macros"/>
+		<p n="lib,listen!"/>
+		<p n="lib,prevent-default"/>
+		<p n="pu,:dynamic"/>
+		<p n="doc_comment,;">
+			<attrs flags="mc_doc_comments" match_fun="match_comment"/>
+		</p>
 		<d n="k,whenever"/>
 		<d n="comment,#"/>
+		<d n="doc_comment,///"/>
 		<d n="k,load"/>
 		<d n="k,return"/>
 		<d n="k,call"/>
@@ -5126,6 +5148,8 @@ AttributeError: Foo instance has no attribute 'bar'
 		<show_special_chars_flags v="0x0"/>
 		<syntax_indent v="3"/>
 		<word_wrap_flags v="0x1"/>
+		<comment_box_options firstline_is_top="1" lastline_is_bottom="1"/>
+		<begin_end_pairs v="(defn),(def),(ns),(if),(case),(for),(foreach),(function),(main),(menu)(input)(prompt)(while)(report)|(end);i"/>
 	</language>
 	<language n="language.as" version="1">
 		<auto_complete_flags v="0xFFCFFFFE"/>
@@ -5687,6 +5711,13 @@ AttributeError: Foo instance has no attribute 'bar'
 		<p n="encoding-xsd" v="+fautoxml "/>
 		<p n="encoding-xsl" v="+fautoxml "/>
 		<p n="encoding-xslt" v="+fautoxml "/>
+		<p n="langid-.clj" v="gl"/>
+		<p n="langid-.cljs" v="gl"/>
+		<p n="langid-.el" v="gl"/>
+		<p n="langid-.lisp" v="gl"/>
+		<d n="langid-4gl"/>
+		<d n="langid-gl"/>
+		<d n="langid-p4gl"/>
 	</misc.file_extensions>
 	<misc.fonts n="misc.fonts" version="1">
 		<cmdline font_name="System" sizex10="100" flags="0x0" configs="win"/>
@@ -6575,6 +6606,7 @@ AttributeError: Foo instance has no attribute 'bar'
 		<p n="def_proctree_flags" v="0xFF500003"/>
 		<p n="def_diff_edit_flags" v="0x4068"/>
 		<p n="def_vc_system" v="Perforce"/>
+		<p n="def_macfiles" v="C:\Users\tguc8n\Downloads\Glisp\_glisp.ex"/>
 	</misc.def_vars>
 	<language.fileprojects n="language.pl.fileprojects" version="1">
 		<p n="c:\program files (x86)\vmware\vmware vsphere cli\perl\samples\vm\snapshot.pl">
@@ -6673,4 +6705,9 @@ _tbdebugbb_form 1
 			</State>
 		</p>
 	</language.fileprojects>
+	<eventtab_profiles n="eventtab_profiles.gl" version="1">
+		<p n="'ENTER'" v="glisp-enter"/>
+		<p n="'C-Y'" v="glisp-pasteandtabit"/>
+		<p n="'TAB'" v="glisp-tabit"/>
+	</eventtab_profiles>
 </options>
